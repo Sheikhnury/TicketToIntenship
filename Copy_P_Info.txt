@@ -1,0 +1,68 @@
+    PID TTY      STAT   TIME COMMAND
+   1342 ?        Ss     0:00 /lib/systemd/systemd --user
+   1343 ?        S      0:00 (sd-pam)
+   1348 ?        Ssl    0:13 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   1350 ?        RNsl   0:00 /usr/libexec/tracker-miner-fs
+   1352 ?        Ss     0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1357 ?        Ssl    0:00 /usr/libexec/gvfsd
+   1362 ?        Sl     0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+   1382 ?        Ssl    0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+   1387 ?        Ssl    0:00 /usr/libexec/gvfs-goa-volume-monitor
+   1391 ?        Sl     0:00 /usr/libexec/goa-daemon
+   1398 ?        Sl     0:00 /usr/libexec/goa-identity-service
+   1403 ?        Sl     0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+   1408 ?        Ssl    0:02 /usr/libexec/gvfs-afc-volume-monitor
+   1414 ?        Ssl    0:00 /usr/libexec/gvfs-mtp-volume-monitor
+   1420 ?        Ssl    0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+   1428 tty2     Ssl+   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+   1430 tty2     Rl+    0:40 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+   1446 tty2     Sl+    0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+   1513 ?        Ss     0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+   1532 ?        Ssl    0:00 /usr/libexec/at-spi-bus-launcher
+   1537 ?        S      0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+   1541 ?        Ssl    0:00 /usr/libexec/gnome-session-ctl --monitor
+   1548 ?        Ssl    0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   1563 ?        Ssl    1:00 /usr/bin/gnome-shell
+   1585 ?        Sl     0:00 ibus-daemon --panel disable --xim
+   1588 ?        Ssl    0:00 /usr/libexec/xdg-permission-store
+   1593 ?        Sl     0:00 /usr/libexec/gnome-shell-calendar-server
+   1595 ?        Sl     0:00 /usr/libexec/ibus-dconf
+   1596 ?        Sl     0:01 /usr/libexec/ibus-extension-gtk3
+   1600 ?        Sl     0:00 /usr/libexec/ibus-x11 --kill-daemon
+   1603 ?        Sl     0:00 /usr/libexec/ibus-portal
+   1616 ?        Sl     0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+   1627 ?        Ssl    0:00 /usr/libexec/evolution-source-registry
+   1636 ?        Sl     0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   1646 ?        Ssl    0:00 /usr/libexec/gsd-a11y-settings
+   1647 ?        Ssl    0:00 /usr/libexec/gsd-color
+   1648 ?        Ssl    0:00 /usr/libexec/gsd-datetime
+   1649 ?        Ssl    0:01 /usr/libexec/gsd-housekeeping
+   1656 ?        Ssl    0:00 /usr/libexec/gsd-keyboard
+   1657 ?        Ssl    0:01 /usr/libexec/gsd-media-keys
+   1660 ?        Ssl    0:02 /usr/libexec/gsd-power
+   1661 ?        Ssl    0:00 /usr/libexec/gsd-print-notifications
+   1662 ?        Ssl    0:00 /usr/libexec/gsd-rfkill
+   1663 ?        Ssl    0:00 /usr/libexec/gsd-screensaver-proxy
+   1664 ?        Ssl    0:00 /usr/libexec/gsd-sharing
+   1665 ?        Ssl    0:00 /usr/libexec/gsd-smartcard
+   1666 ?        Ssl    0:00 /usr/libexec/gsd-sound
+   1667 ?        Ssl    0:00 /usr/libexec/gsd-usb-protection
+   1668 ?        Ssl    0:00 /usr/libexec/gsd-wacom
+   1669 ?        Ssl    0:00 /usr/libexec/gsd-wwan
+   1670 ?        Ssl    0:00 /usr/libexec/gsd-xsettings
+   1694 ?        Sl     0:00 /usr/libexec/gsd-disk-utility-notify
+   1696 ?        Sl     0:01 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   1733 ?        Sl     0:00 /usr/libexec/gsd-printer
+   1782 ?        Sl     0:00 /usr/libexec/ibus-engine-simple
+   1805 ?        Sl     0:00 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+   1835 ?        Ssl    0:00 /usr/libexec/evolution-calendar-factory
+   1859 ?        Sl     0:00 /usr/libexec/dconf-service
+   1863 ?        Ssl    0:00 /usr/libexec/evolution-addressbook-factory
+   1900 ?        Ssl    0:00 /usr/libexec/gvfsd-metadata
+   1903 ?        Sl     0:01 update-notifier
+   3461 ?        Ssl    0:04 /usr/libexec/gnome-terminal-server
+   3469 pts/0    Ss     0:00 bash
+   3608 ?        Ssl    0:00 /usr/libexec/tracker-store
+   3615 ?        SNsl   0:00 /usr/libexec/tracker-extract
+   3633 pts/0    S+     0:00 bash Script.sh
+   3635 pts/0    R+     0:00 ps x
